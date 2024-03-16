@@ -1,0 +1,57 @@
+[
+    {
+      "recipeId": 1,
+      "recipeName": "Grilled Salmon",
+      "shortDescription": "Healthy and delicious grilled salmon",
+      "ingredients": ["500 g Salmon fillet", "25 ml Olive oil", "Salt", "Pepper"],
+      "preparingTime": "30 minutes",
+      "calories": 250,
+      "recipeImage": "https://i.postimg.cc/441kKYWj/salmon.jpg"
+    },
+    {
+      "recipeId": 2,
+      "recipeName": "Caprese Salad",
+      "shortDescription": "Fresh and flavorful Italian salad",
+      "ingredients": ["300 g Tomatoes", "200 g Fresh mozzarella", "Basil leaves", "15 ml Balsamic vinegar", "20 ml Olive oil"],
+      "preparingTime": "15 minutes",
+      "calories": 180,
+      "recipeImage": "https://i.postimg.cc/50ddzLdW/chicken.jpg"
+    },
+    {
+      "recipeId": 3,
+      "recipeName": "Vegetable Stir-Fry",
+      "shortDescription": "Quick and colorful stir-fry with fresh veggies",
+      "ingredients": ["400 g Bell peppers", "300 g Broccoli", "200 g Carrots", "Onion", "30 ml Soy sauce"],
+      "preparingTime": "20 minutes",
+      "calories": 200,
+      "recipeImage": "https://i.postimg.cc/rFF65qbs/vegetable.jpg"
+    },
+    {
+      "recipeId": 4,
+      "recipeName": "Chicken Alfredo Pasta",
+      "shortDescription": "Creamy and comforting pasta dish",
+      "ingredients": ["500 g Chicken breast", "400 g Fettuccine pasta", "200 ml Heavy cream", "200 g Parmesan cheese", "Garlic"],
+      "preparingTime": "40 minutes",
+      "calories": 400,
+      "recipeImage": "https://i.postimg.cc/DZrVP0nJ/pasta.jpg"
+    },
+    {
+      "recipeId": 5,
+      "recipeName": "Quinoa Salad",
+      "shortDescription": "Nutritious and satisfying salad with quinoa",
+      "ingredients": ["300 g Quinoa", "300 g Cucumber", "200 g Cherry tomatoes", "Red onion", "30 ml Lemon juice"],
+      "preparingTime": "25 minutes",
+      "calories": 220,
+      "recipeImage": "https://i.postimg.cc/NFDWZnyQ/quinoa.jpg"
+    },
+    {
+      "recipeId": 6,
+      "recipeName": "Homemade Pizza",
+      "shortDescription": "Classic pizza made from scratch",
+      "ingredients": ["500 g Pizza dough", "150 ml Tomato sauce", "300 g Mozzarella cheese", "200 g Pepperoni", "300 g Bell peppers"],
+      "preparingTime": "35 minutes",
+      "calories": 300,
+      "recipeImage": "https://i.postimg.cc/Rh4ksmZP/home-Pizza.jpg"
+    }
+  ]
+  
