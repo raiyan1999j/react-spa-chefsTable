@@ -93,7 +93,7 @@ export default function Header() {
         </div>
       </section>
 
-      <section className="w-[1320px] mx-auto mt-[50px] bg-bannerImg small:w-[475.2px] small:rounded-[38px] medium:w-[633.6px] medium:rounded-[38px]">
+      <section className="w-[1320px] mx-auto mt-[50px] bg-bannerImg rounded-3xl small:w-[475.2px] small:rounded-[38px] medium:w-[633.6px] medium:rounded-[38px]">
         <div className="w-[897px] mx-auto text-center text-[#FFFFFF] py-[129px] small:w-[400px] medium:w-[550px]">
             <h1 className="text-[52px] font-bold capitalize small:text-[26px] medium:text-[32px]">
             Explore customized cooking classes today!

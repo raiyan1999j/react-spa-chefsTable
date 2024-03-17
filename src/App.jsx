@@ -9,7 +9,7 @@ export default function App(){
 
   useEffect(()=>{
     async function loadAllItems(){
-      const api = await fetch('../public/blogs.json');
+      const api = await fetch('blogs.json');
       const json= await api.json();
 
       setItems(json);

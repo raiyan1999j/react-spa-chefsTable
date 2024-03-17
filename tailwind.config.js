@@ -10,7 +10,7 @@ export default {
         'lexend':["Lexend","sans-serif"]
       },
       backgroundImage:{
-        'bannerImg':"linear-gradient(0.00deg, #150b2be6,#150b2b00 100%),url('./src/image/bannerImg.png')"
+        'bannerImg':"linear-gradient(0.00deg, #150b2be6,#150b2b00 100%),url('./public/bannerImg.png')"
       },
       screens:{
         'small':{'min':'0px','max':'576px'},
