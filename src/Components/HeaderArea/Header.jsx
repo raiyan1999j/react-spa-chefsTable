@@ -8,9 +8,9 @@ import {
 export default function Header() {
   return (
     <>
-      <section className="w-[1320px] mx-auto">
+      <section className="w-[1320px] mx-auto small:w-[475.2px] medium:w-[633.6px]">
         <div className="navbar bg-base-100">
-          <div className="navbar-start">
+          <div className="navbar-start medium:items-start">
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -37,25 +37,20 @@ export default function Header() {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a>Item 1</a>
-                </li>
-                <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>Item 3</a>
-                </li>
+                <a>Home</a>
+              </li>
+              <li>
+                <a>recipes</a>
+              </li>
+              <li>
+                <a>about</a>
+              </li>
+              <li>
+                <a>search</a>
+              </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-[32px] text-[#150B2B] font-bold capitalize">
+            <a className="btn btn-ghost text-[32px] text-[#150B2B] font-bold capitalize medium:text-[26px] medium:translate-x-[-18px]">
               Nutrition & Burns
             </a>
           </div>
@@ -98,17 +93,17 @@ export default function Header() {
         </div>
       </section>
 
-      <section className="w-[1320px] mx-auto mt-[50px] bg-bannerImg">
-        <div className="w-[897px] mx-auto text-center text-[#FFFFFF] py-[129px]">
-            <h1 className="text-[52px] font-bold capitalize">
+      <section className="w-[1320px] mx-auto mt-[50px] bg-bannerImg small:w-[475.2px] small:rounded-[38px] medium:w-[633.6px] medium:rounded-[38px]">
+        <div className="w-[897px] mx-auto text-center text-[#FFFFFF] py-[129px] small:w-[400px] medium:w-[550px]">
+            <h1 className="text-[52px] font-bold capitalize small:text-[26px] medium:text-[32px]">
             Explore customized cooking classes today!
             </h1>
-            <p className="font-normal text-lg capitalize mt-6 mb-10">
+            <p className="font-normal text-lg capitalize mt-6 mb-10 small:text-xs medium:text-base">
             Master programming fundamentals, data structures, algorithms, OOP, databases, and solve 500+ coding problems to excel as a world-class programmer.
             </p>
-            <div>
+            <div className="small:flex small:flex-row small:justify-center">
                 <button className="capitalize text-[#150B2B] text-xl font-semibold py-5 px-[30px] bg-[#0BE58A] rounded-full
-                mr-[30px] hover:bg-transparent hover:transition-all hover:ease-out hover:duration-500 hover:border hover:border-[#0BE58A] hover:text-white">
+                mr-[30px] hover:bg-transparent hover:transition-all hover:ease-out hover:duration-500 hover:border hover:border-[#0BE58A] hover:text-white small:py-[5px] small:text-xs">
                     explore now
                 </button>
                 <button className="capitalize text-white text-xl font-semibold py-5 px-[30px] border border-white rounded-full hover:bg-[#0BE58A] hover:transition-all hover:ease-out hover:duration-500 hover:border hover:border-[#0BE58A] hover:text-white">

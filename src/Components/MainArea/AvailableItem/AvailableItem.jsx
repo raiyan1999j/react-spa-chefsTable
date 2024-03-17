@@ -15,11 +15,11 @@ export default function AvailableItems({info,id,addToOrder}){
     }
     return(
         <>
-            <div className="border rounded-lg py-6 px-6">
+            <div className="border rounded-lg py-6 px-6 small:flex small:items-center small:flex-col medium:flex medium:items-center medium:flex-col">
               <div className="w-[331px] h-[200px] rounded-lg border">
                 <img src={info.recipeImage} alt={info.recipeName} className="h-full w-full object-cover rounded-lg" />
               </div>
-              <div className="mt-6">
+              <div className="mt-6 ">
                 <h3 className="text-[#282828] text-[20px] font-semibold capitalize">
                   {info.recipeName}
                 </h3>
@@ -27,7 +27,7 @@ export default function AvailableItems({info,id,addToOrder}){
                   {info.shortDescription}
                 </p>
               </div>
-              <div className="mt-6">
+              <div className="mt-6 small:translate-x-[-27px] medium:translate-x-[-27px]">
                 <h3 className="text-[#282828] capitalize text-lg font-medium">
                   Ingredients: {info.ingredients.length}
                 </h3>
