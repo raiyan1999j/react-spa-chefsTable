@@ -1,7 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBurn, faClock } from "@fortawesome/free-solid-svg-icons";
 
-export default function AvailableItems({info}){
+export default function AvailableItems({info,id,addToOrder}){
+
+    const addItem=()=>{
+      let wrap={
+        id:id,
+        name:info.recipeName,
+        time:info.preparingTime,
+        calories:info.calories
+      }
+
+      addToOrder(wrap);
+    }
     return(
         <>
             <div className="border rounded-lg py-6 px-6">
@@ -37,7 +48,7 @@ export default function AvailableItems({info}){
                 </span>
               </div>
               <div>
-                <button className="text-[#150B2B] text-lg font-medium py-3 px-6 bg-[#0BE58A] rounded-full mt-6 hover:border hover:border-[#0BE58A] hover:bg-transparent hover:text-[#0BE58A] hover:transition-all hover:duration-500 hover:ease-in-out">
+                <button className="text-[#150B2B] text-lg font-medium py-3 px-6 bg-[#0BE58A] rounded-full mt-6 hover:border hover:border-[#0BE58A] hover:bg-transparent hover:text-[#0BE58A] hover:transition-all hover:duration-500 hover:ease-in-out" onClick={addItem}>
                   want to cook
                 </button>
               </div>
