@@ -4,14 +4,15 @@ import OrderItems from "./ServeItems/OrderItems";
 import PrepareItems from "./ServeItems/PrepareItems";
 import TotalConsume from "./ServeItems/TotalConsume";
 
-export default function Main({ foodItems }) {
+export default function Main({ foodItems,conditionToast }) {
   const [itemsArr, setArr] = useState([]);
   const [prepare,setPrepare]= useState([]);
   const [consume,setConsume]= useState([]);
+  
 
   const orderToAdd = (info) => {
     if(itemsArr.map(value=>value?.id).includes(info.id)){
-      console.log('matched')
+      conditionToast(true);
     }else{
       setArr(value=>[...value,info])
     }
